@@ -9,17 +9,18 @@ header{
     align-items: center;
     padding: 5px 20px;
     background-color: var(--cor-terciaria);
+    gap: 10px;
 }
 .icons{
     width: 20px;
     height: 20px;
-    margin-top: 5px;
 }
 .menu-primario{
+    max-width: 1200px;
     display: flex;
     margin: 0 auto;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     gap: 20px;

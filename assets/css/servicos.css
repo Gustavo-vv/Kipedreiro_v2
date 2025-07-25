@@ -65,3 +65,28 @@
     align-items: center;
     color: gold;
 }
+.card-coluna{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card-servico-pagina{
+        flex-basis: calc(70% - 10px);
+        height: 280px;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        border-radius: 5px;
+    }    
+.figure-pagina-servico{
+    display: flex;
+
+}
+.figcaption-servico-pagina{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(-50%);
+}
